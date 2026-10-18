@@ -1,0 +1,26 @@
+kind,pattern,replacement,note
+# kind: remove_regex=정규식으로 지움 / remove_word=단어 지움 / replace=pattern을 replacement로 바꿈 / stopword=키워드에서 제외,,,
+# 아래는 예시입니다. 마켓별 상품명 정책과 대조해 확인한 목록이 아닙니다.,,,
+remove_regex,\[[^\]]*\],,[대괄호] 안 전체 — [국내산] 같은 정보도 지워지니 필요하면 이 줄을 지우세요
+remove_regex,【[^】]*】,,【겹낫표】 안 전체
+remove_regex,"\([^)]*(무료배송|당일발송|특가|이벤트|도매|최저가)[^)]*\)",,홍보 문구가 든 (괄호)
+remove_regex,[★☆♥♡◆◇■□●○▶▷※#~!@^*]+,,장식 특수문자
+remove_word,무료배송,,
+remove_word,당일발송,,
+remove_word,당일출고,,
+remove_word,초특가,,
+remove_word,특가,,
+remove_word,최저가,,
+remove_word,도매,,
+remove_word,땡처리,,
+remove_word,사은품증정,,
+replace,스텐레스,스테인리스,표기 통일 예시
+replace,스텐 ,스테인리스 ,표기 통일 예시 (뒤 공백 포함)
+stopword,및,,
+stopword,용,,
+stopword,세트,,
+stopword,상품,,
+stopword,제품,,
+stopword,추천,,
+stopword,인기,,
+stopword,신상,,

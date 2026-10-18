@@ -1,0 +1,10 @@
+key,value,note
+size,1000,결과 한 변 길이(px). 마켓 권장 크기는 확인하지 못함
+padding_ratio,0.05,한쪽 여백 비율 (0.05 = 5%)
+background,#FFFFFF,배경색
+trim,true,원래 있던 흰 여백을 잘라내고 다시 맞출지
+trim_tolerance,10,배경색과 이만큼(0~255) 차이 나야 내용으로 봄. 연한 그림자가 잘리면 값을 낮추기
+max_upscale,2.0,최대 몇 배까지 키울지. 1.0이면 키우지 않음 (많이 키우면 흐려짐)
+min_source_px,500,원본 긴 변이 이보다 작으면 경고
+format,JPEG,JPEG / PNG / WEBP
+jpeg_quality,90,JPEG·WEBP 화질 (1~95)

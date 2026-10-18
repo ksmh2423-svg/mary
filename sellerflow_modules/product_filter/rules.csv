@@ -1,0 +1,71 @@
+kind,word,note
+# kind: block=등록제외 / trademark=상표의심(확인필요) / cert=인증확인(확인필요) / allow=예외문구(위험 단어를 포함한 전체 문구를 적음. 그 문구 안의 단어는 무시),,
+# 아래 단어는 예시입니다. 법령·쿠팡·11번가·G마켓·옥션 정책과 대조해 확인한 목록이 아닙니다.,,
+block,전자담배,담배류 예시
+block,담배,
+block,주류,
+block,소주,
+block,맥주,
+block,와인,
+block,의약품,
+block,처방,
+block,도검,
+block,석궁,
+block,가스총,
+block,전기충격기,
+block,모조품,위조품 표현
+block,레플리카,위조품 표현
+block,짝퉁,위조품 표현
+block,미러급,위조품 표현
+block,정품급,위조품 표현
+block,몰래카메라,
+block,콘택트렌즈,
+allow,무알콜 맥주,'맥주' 무시 (실제 판매 가능 여부는 확인 필요)
+allow,와인잔,'와인' 무시
+allow,무알콜 와인,'와인' 무시
+allow,와인오프너,'와인' 무시
+allow,맥주잔,'맥주' 무시
+allow,소주잔,'소주' 무시
+trademark,나이키,
+trademark,아디다스,
+trademark,뉴발란스,
+trademark,샤넬,
+trademark,구찌,
+trademark,루이비통,
+trademark,프라다,
+trademark,에르메스,
+trademark,디올,
+trademark,노스페이스,
+trademark,디즈니,캐릭터
+trademark,마블,캐릭터
+trademark,산리오,캐릭터
+trademark,헬로키티,캐릭터
+trademark,포켓몬,캐릭터
+trademark,카카오프렌즈,캐릭터
+trademark,레고,
+trademark,다이슨,
+trademark,에어팟,
+cert,충전기,전기용품 예시
+cert,어댑터,
+cert,보조배터리,
+cert,배터리,
+cert,전기,
+cert,LED,
+cert,USB,
+cert,블루투스,전파 인증 예시
+cert,무선,
+cert,드라이기,
+cert,히터,
+cert,전기장판,
+cert,가습기,
+cert,선풍기,
+cert,유아,어린이제품 예시
+cert,아기,
+cert,어린이,
+cert,완구,
+cert,장난감,
+cert,젖병,
+cert,식품,
+cert,건강기능,
+cert,화장품,
+cert,마스크,

@@ -1,0 +1,9 @@
+key,value,note
+max_len,50,기본 글자 수 제한(공백 포함 글자 수). 마켓 제한값은 확인하지 못해 보수적으로 잡은 값
+max_len_coupang,,쿠팡 제한 — 확인 후 입력 (비워 두면 max_len 사용)
+max_len_11st,,11번가 제한 — 확인 후 입력
+max_len_gmarket,,G마켓 제한 — 확인 후 입력
+max_len_auction,,옥션 제한 — 확인 후 입력
+prefix,,상품명 앞에 붙일 말 (예: 스토어 이름). 비우면 안 붙임
+dedupe,true,같은 단어가 반복되면 하나만 남김
+keyword_count,10,뽑을 키워드 최대 개수

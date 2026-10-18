@@ -1,0 +1,29 @@
+{
+  "label": "쿠팡",
+  "_설명": "쿠팡 Wing > 상품 일괄등록에서 받은 카테고리별 양식의 머리글 이름에 맞춰 왼쪽 이름을 고치세요. 쿠팡 양식은 머리글이 여러 줄인 경우가 많아 header_row/data_start_row를 꼭 확인하세요.",
+  "fee_rate": 0.108,
+  "sheet": "",
+  "header_row": 1,
+  "data_start_row": 2,
+  "image_mode": "url",
+  "multi_sep": "|",
+  "option_sep": "|",
+  "option_group_name": "옵션",
+  "columns": {
+    "노출상품명": "clean_title",
+    "등록상품명": "clean_title",
+    "카테고리": "category_id",
+    "브랜드": "brand",
+    "판매가격": "sale_price",
+    "재고수량": "stock",
+    "대표이미지": "image_main",
+    "추가이미지": "images_extra",
+    "상세설명": "detail_html",
+    "업체상품코드": "seller_code",
+    "검색어": "keywords",
+    "옵션유형": "option_group",
+    "옵션값": "option_names",
+    "A/S전화번호": "setting:as_phone",
+    "A/S안내": "setting:as_info"
+  }
+}

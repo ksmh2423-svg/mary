@@ -1,0 +1,33 @@
+{
+  "label": "스마트스토어",
+  "_설명": "스마트스토어센터 > 상품 일괄등록에서 받은 양식의 머리글 이름에 맞춰 왼쪽 이름을 고치세요. header_row=머리글 줄 번호, data_start_row=첫 상품을 쓸 줄 번호.",
+  "fee_rate": 0.06,
+  "sheet": "",
+  "header_row": 1,
+  "data_start_row": 2,
+  "image_mode": "file",
+  "multi_sep": ",",
+  "option_sep": ",",
+  "option_group_name": "옵션",
+  "columns": {
+    "상품상태": "=신상품",
+    "카테고리ID": "category_id",
+    "상품명": "clean_title",
+    "판매가": "sale_price",
+    "재고수량": "stock",
+    "A/S 안내내용": "setting:as_info",
+    "A/S 전화번호": "setting:as_phone",
+    "대표 이미지 파일명": "image_main",
+    "추가 이미지 파일명": "images_extra",
+    "상품 상세정보": "detail_html",
+    "판매자 상품코드": "seller_code",
+    "브랜드": "brand",
+    "원산지 코드": "setting:origin",
+    "옵션형태": "=단독형",
+    "옵션명": "option_group",
+    "옵션값": "option_names",
+    "옵션가": "option_prices",
+    "옵션 재고수량": "option_stocks",
+    "태그": "keywords"
+  }
+}

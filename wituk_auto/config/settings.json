@@ -1,0 +1,34 @@
+{
+  "_설명": "숫자만 바꾸면 됩니다. 0.25 = 25%. 저장 후 프로그램을 다시 열면 적용돼요.",
+  "margin_rate": 0.25,
+  "default_fee_rate": 0.11,
+  "free_shipping": true,
+  "my_shipping_fee": 3000,
+  "extra_cost_per_item": 0,
+  "round_unit": 100,
+  "min_price": 0,
+
+  "exchange_rates": {"KRW": 1, "CNY": 195, "USD": 1400, "JPY": 9.3},
+  "intl_shipping_krw": 0,
+  "duty_free_limit_krw": 150000,
+  "duty_rate": 0.08,
+  "vat_rate": 0.10,
+
+  "title_max_len": 50,
+  "title_prefix": "",
+  "title_remove_words": [],
+  "title_remove_patterns": [],
+
+  "image_size": 1000,
+  "image_padding": 0.05,
+  "max_images": 10,
+
+  "default_stock": 99,
+  "max_stock": 999,
+  "include_warned": true,
+
+  "as_phone": "010-0000-0000",
+  "as_info": "판매자에게 문의해 주세요",
+  "origin": "상세설명참조",
+  "category_map": {}
+}
